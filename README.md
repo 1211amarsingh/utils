@@ -13,3 +13,16 @@ This repositary contains most required and useful utils files
 ### How To use KeyboardHandler
         KeyboardHandler.hideKeyboard(this);
         KeyboardHandler.showKeyboard(this);
+
+### How To use LocaleHelper
+        Useful for multiple language in app ("en", "hi", "mr", "gu", "pa")
+        
+        For set language hindi automatically hindi will be set
+        LocaleHelper.setLocale(this, "hi");
+
+        For init hindi when open app again
+        @Override
+          protected void attachBaseContext(Context newBase) {
+              super.attachBaseContext(LocaleHelper.onAttach(newBase));
+          }
+
