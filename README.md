@@ -19,7 +19,12 @@ This repositary contains most required and useful utils files
         
         For set language hindi automatically hindi will be set
         LocaleHelper.setLocale(this, "hi");
-
+        
+        For update textview text startactivity again
+        Intent intent = activity.getIntent();
+        activity.finish();
+        activity.startActivity(intent);
+        
         For init hindi when open app again
         @Override
           protected void attachBaseContext(Context newBase) {
