@@ -2,7 +2,7 @@
 This repositary contains most required and useful utils files
 
 
-### How To use PrefManager
+### 1. How To use PrefManager
 
         PrefManager prefManager = new PrefManager(this);
         
@@ -10,11 +10,11 @@ This repositary contains most required and useful utils files
         exist("key")
         putString("key", value)
         
-### How To use KeyboardHandler
+### 2. How To use KeyboardHandler
         KeyboardHandler.hideKeyboard(this);
         KeyboardHandler.showKeyboard(this);
 
-### How To use LocaleHelper
+### 3. How To use LocaleHelper
         Useful for multiple language in app ("en", "hi", "mr", "gu", "pa")
         
         For set language hindi automatically hindi will be set
