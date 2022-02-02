@@ -3,6 +3,8 @@ This repositary contains most required and useful utils files
 
 
 ### 1. How To use EncryptedSharedPreferences
+    implementation 'androidx.security:security-crypto-ktx:1.1.0-alpha03'
+
         /prefs
 
         initialize Pref in Application class 
