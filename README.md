@@ -2,7 +2,17 @@
 This repositary contains most required and useful utils files
 
 
-### 1. How To use PrefManager
+### 1. How To use EncryptedSharedPreferences
+        /prefs
+
+        initialize Pref in Application class 
+                PrefManager.initPrefs(this)
+        PrefManager.prefs.setValue("TEst1", "sss")
+        PrefManager.prefs.getStringValue("TEst1")
+        PrefManager.prefs.clear()
+
+
+### 2. How To use PrefManager.java
 
         PrefManager prefManager = new PrefManager(this);
         
